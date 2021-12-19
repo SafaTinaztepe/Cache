@@ -10,8 +10,8 @@ export default class PaypalContainer extends Component {
         env: 'sandbox',
         currency:props.currency,
         client: {
-            sandbox:    'AYVLFhv6FECzlMQapOii1SUI-CpLQvDRU4g8S8TIIK-ma2dCw9Fge2iGeKbM-AzEz0nAEbvsO9_Bp11-',
-            production: 'Ab4XiqtK7mex4jSF9RQnv_Gr5vwpYftEkbM4EMcS-wh_h54Zyby9XGpchGcQuAuuJR_JQ8J-8zAxMpO4'
+            sandbox:    'api key',
+            production: 'api key'
                 }
       }
       this.onSuccess = this.onSuccess.bind(this);
